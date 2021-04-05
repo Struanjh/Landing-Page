@@ -41,9 +41,13 @@ for (i=0; i < sections.length; i++) {
   sections.forEach( section => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
+    //NEW
+    section.classList.remove("your-active-class");
    //Test which section is closest to top and gets it's id
     if(pageYOffset >= sectionTop - sectionHeight / navLength) {
       current = section.getAttribute('id');
+      //NEW
+      section.classList.add("your-active-class");
     }
   });
 
