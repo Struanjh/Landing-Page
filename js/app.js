@@ -44,11 +44,6 @@ function scrollToTarget (clickTarget, scrollTarget) {
 
 
 
-// ATTEMPT 1//
-
-
-
-
 // FUNCTIONALITY 2 -- DIFFERENTIATE THE SECTION OF THE PAGE THE USER IS CURRENTLY ON!//
 
 
@@ -94,6 +89,8 @@ window.addEventListener('scroll', ()=> {
 })
 
 })
+
+
 
 
 
